@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Snowboarding Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/8ab490194a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li> 
+                   <li><a href="events.html">EVENTS</a></li> 
+                   <li><a href="tickets.html">TICKETS</a></li> 
+                   <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </div>
+
+        </nav>
+        <h1>About Us</h1>
+
+</section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1> Come Be a Member!</h1>
+            <p> We are a group of snowboarders that like to just go and have fun! We are located in the University of Calgary and we welcome everyone
+                in all skill groups! We wish to spread the culture of snowboarding with anyone who is interested and we have been here for a very long time.
+                If you are interested in joining, or have any questions, please don't hesitate to contact us below, or you can come visit us in our club room!
+                We look forward to seeing you here and hope that you are able to join us in our events, or even just come to chill!
+            </p>
+            <a href="contact.html" class="hero-btn red-btn"> CONTACT US </a>
+        </div>
+        <div class="about-col">
+            <img src="images/aboutus1.jpg">
+        </div>
+    </div>
+</section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+
+</script>
+</body>
+</html>

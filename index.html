@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Snowboarding Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/8ab490194a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li> 
+                   <li><a href="events.html">EVENTS</a></li> 
+                   <li><a href="tickets.html">TICKETS</a></li> 
+                   <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </div>
+
+
+        </nav>
+
+<div  class="text-box">
+    <h1> University Snowboarding Club</h1>
+    <p>The official website for the snowboarding club at the University of Calgary!</p>
+    <a href="about.html" class="hero-btn"> Want more info? Click here!</a>
+</div>
+
+</section>
+<!--tickets-->
+
+<section class="tickets">
+    <h1> Tickets </h1>
+    <p> Check out our discounted tickets here!</p>
+    <div class="row">
+        <div class="tickets-col">
+            <h3> SUNSHINE</h3>
+        </div>
+        <div class="tickets-col">
+            <h3> NAKISKA</h3>
+        </div>
+        <div class="tickets-col">
+            <h3> LAKE LOUISE</h3>
+        </div>
+    </div>
+</section>
+
+<!--Events-->
+
+<section class="events">
+    <h1> Events</h1>
+    <p>We host a few gatherings each year! Come meet new people and have some fun! All skill groups welcomed. </p>
+
+    <div class="row">
+        <div class="events-col">
+            <img src="images/fernie.jpg">
+            <div class="layer">
+                <h3> FERNIE </h3>
+            </div>
+        </div>
+        <div class="events-col">
+            <img src="images/snowboard1.jpg">
+            <div class="layer">
+                <h3> KICKING HORSE </h3>
+            </div>
+        </div>
+        <div class="events-col">
+            <img src="images/snowboard2.jpg">
+            <div class="layer">
+                <h3> REVELSTOKE </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="video">
+    <h1>This Could Be You!</h1>
+    <br>
+    <p>Footage from one of our members</p>
+    <br>
+    <iframe width="1000" height="600" src="https://www.youtube.com/embed/VLXx3ApEOq4" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!----JS for Toggle Menu--
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+-->
+
+</script>
+</body>
+</html>
